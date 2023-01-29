@@ -10,8 +10,10 @@ html {
 
 .ez-side-menu{
     background: #F4F8FF !important;
-    padding: 16px !important;
+    padding: 16px 0px !important;
     border-radius: 8px !important;
+    overflow-y: scroll;
+    max-height: 600px;
 }
 #ez-side-menu ul{
     list-style: none !important;
@@ -31,4 +33,14 @@ html {
     font-weight: 700;
     margin-bottom: 8px !important;
     display: block;
+}
+
+.sub-tt{
+    padding-left: 12px !important;
+}
+.ez-list.active{
+    border-left: 4px solid #1068E9;
+    padding-left: 12px !important;
+    background: #DDEAFD;
+    padding: 10px;
 }
